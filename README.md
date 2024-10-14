@@ -20,7 +20,7 @@
    - https://wiki.archlinux.org/title/Kernel_mode_setting#Forcing_modes_and_EDID
  
 ## Устройства с данной проблемой
-- HIPER JM28EUI
+- HIPER JM28EUI https://linux-hardware.org/?probe=c614f1c3d9 https://linux-hardware.org/?probe=f0ef35cb16
 - CTSP28-BL01 https://linux-hardware.org/?probe=ab499d2c32&log=edid
 - Lenovo XiaoXinPro 14 APH8 https://linux-hardware.org/?probe=c8304d2f20&log=edid
 - Lenovo IdeaPad Pro 5 14APH8 https://linux-hardware.org/?probe=47ca371fcb&log=edid
