@@ -1,7 +1,7 @@
 # DisplayID checksum invalid fix
 
 ## Проблема
-- В Linux нет варианта нужного разрешения (в моём случае на HIPER JM28EUI даёт выставить только 4k@60Hz, хотя в Windows доступно 4k@144Hz)
+- В Linux нет варианта нужного разрешения (в моём случае на HIPER JM28EUI даёт выставить только 4k@60Hz, хотя в Windows доступно 4k@144Hz, 4k@120Hz@10bit@fRGB)
 - dmesg = "[drm] DisplayID checksum invalid, remainder is"
 
 ## Причина
