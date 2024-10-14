@@ -15,7 +15,7 @@
 ## Решение
 1. Исправляем файл EDID
    - Windows https://www.analogway.com/emea/products/software-tools/aw-edid-editor/
-   - Linux
+   - Linux https://sourceforge.net/projects/wxedid/ (не проверял)
 3. Добавляем в ОС
    - https://wiki.archlinux.org/title/Kernel_mode_setting#Forcing_modes_and_EDID
  
