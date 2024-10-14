@@ -1,6 +1,18 @@
 # DisplayID checksum invalid fix
 
-##
+## Проблема
+- В Linux нет варианта нужного разрешения (в моём случае на HIPER JM28EUI даёт выставить только 4k@60Hz, хотя в Windows доступно 4k@144Hz)
+- dmesg = "[drm] DisplayID checksum invalid, remainder is"
+
+## Причина
+- EDID в блоке "Block 2, DisplayID Extension Block" = "Checksum: 0x00 (should be 0x42)"
+
+## Решение
+- Получаем файл EDID (Windows https://customresolutionutility.net/)
+- Исправляем файл EDID (Windows https://www.analogway.com/emea/products/software-tools/aw-edid-editor/)
+- Добавляем в ОС
+ 
+## Устройства с данной проблемой
 - HIPER JM28EUI
 - CTSP28-BL01 https://linux-hardware.org/?probe=ab499d2c32&log=edid
 - Lenovo XiaoXinPro 14 APH8 https://linux-hardware.org/?probe=c8304d2f20&log=edid
