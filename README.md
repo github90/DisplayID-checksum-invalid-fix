@@ -18,6 +18,7 @@
    - Linux https://sourceforge.net/projects/wxedid/ (не проверял)
 3. Добавляем в ОС
    - https://wiki.archlinux.org/title/Kernel_mode_setting#Forcing_modes_and_EDID
+   - https://www.wezm.net/v2/posts/2020/linux-amdgpu-pixel-format/
  
 ## Устройства с данной проблемой
 - HIPER JM28EUI https://linux-hardware.org/?probe=c614f1c3d9 https://linux-hardware.org/?probe=f0ef35cb16
